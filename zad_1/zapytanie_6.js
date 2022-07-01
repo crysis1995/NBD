@@ -1,0 +1,25 @@
+printjson(db.people.insertOne({
+    birth_date:"1995-02-02",
+    credit:[{
+        balance:"5123.31",
+        currency:"PLN",
+        number:"8079812038123",
+        type:"mastercard"
+    }],
+    description:"descriptions",
+    email:"test@edu.com",
+    first_name:"Krzysztof",
+    height:"175",
+    job:"Developer",
+    last_name:"Kaczor",
+    location:{
+        city:"Warszawa",
+        address:{
+            streetname:"Grodkowska",
+            streetnumber:"2A"
+        }
+    },
+    nationality:"Poland",
+    sex:"Male",
+    weight:"75",
+}))

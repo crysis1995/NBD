@@ -1,0 +1,3 @@
+{"modelName":"Model S","brandName":"Tesla","mileageKm":45123.0,"enginePower":1000.0,"isElectric":true}
+{"modelName":"Model S","brandName":"Tesla","mileageKm":7723246.0,"enginePower":1000.0,"isElectric":false}
+null

@@ -1,0 +1,444 @@
+MongoDB shell version v4.0.28
+connecting to: mongodb://127.0.0.1:27017/nbd?gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("618d8e3b-1ac3-48e4-9b33-01126fda9005") }
+MongoDB server version: 4.0.28
+[
+	{
+		"_id" : "MYR",
+		"sumBalance" : NumberDecimal("4781.12"),
+		"avgBalance" : NumberDecimal("4781.12"),
+		"count" : 1
+	},
+	{
+		"_id" : "ALL",
+		"sumBalance" : NumberDecimal("3325.48"),
+		"avgBalance" : NumberDecimal("3325.48"),
+		"count" : 1
+	},
+	{
+		"_id" : "MAD",
+		"sumBalance" : NumberDecimal("3818.85"),
+		"avgBalance" : NumberDecimal("3818.85"),
+		"count" : 1
+	},
+	{
+		"_id" : "LYD",
+		"sumBalance" : NumberDecimal("8764.99"),
+		"avgBalance" : NumberDecimal("4382.495"),
+		"count" : 2
+	},
+	{
+		"_id" : "XPF",
+		"sumBalance" : NumberDecimal("4759.07"),
+		"avgBalance" : NumberDecimal("4759.07"),
+		"count" : 1
+	},
+	{
+		"_id" : "BYR",
+		"sumBalance" : NumberDecimal("5095.79"),
+		"avgBalance" : NumberDecimal("5095.79"),
+		"count" : 1
+	},
+	{
+		"_id" : "IQD",
+		"sumBalance" : NumberDecimal("4269.39"),
+		"avgBalance" : NumberDecimal("4269.39"),
+		"count" : 1
+	},
+	{
+		"_id" : "RSD",
+		"sumBalance" : NumberDecimal("4276.56"),
+		"avgBalance" : NumberDecimal("4276.56"),
+		"count" : 1
+	},
+	{
+		"_id" : "MMK",
+		"sumBalance" : NumberDecimal("4629.42"),
+		"avgBalance" : NumberDecimal("4629.42"),
+		"count" : 1
+	},
+	{
+		"_id" : "KRW",
+		"sumBalance" : NumberDecimal("13379.82"),
+		"avgBalance" : NumberDecimal("6689.91"),
+		"count" : 2
+	},
+	{
+		"_id" : "TJS",
+		"sumBalance" : NumberDecimal("4087.71"),
+		"avgBalance" : NumberDecimal("4087.71"),
+		"count" : 1
+	},
+	{
+		"_id" : "RWF",
+		"sumBalance" : NumberDecimal("4632.88"),
+		"avgBalance" : NumberDecimal("4632.88"),
+		"count" : 1
+	},
+	{
+		"_id" : "BWP",
+		"sumBalance" : NumberDecimal("4076.29"),
+		"avgBalance" : NumberDecimal("4076.29"),
+		"count" : 1
+	},
+	{
+		"_id" : "CLP",
+		"sumBalance" : NumberDecimal("21008.95"),
+		"avgBalance" : NumberDecimal("5252.2375"),
+		"count" : 4
+	},
+	{
+		"_id" : "ILS",
+		"sumBalance" : NumberDecimal("16295.49"),
+		"avgBalance" : NumberDecimal("5431.83"),
+		"count" : 3
+	},
+	{
+		"_id" : "UZS",
+		"sumBalance" : NumberDecimal("3573.03"),
+		"avgBalance" : NumberDecimal("3573.03"),
+		"count" : 1
+	},
+	{
+		"_id" : "KZT",
+		"sumBalance" : NumberDecimal("3788.95"),
+		"avgBalance" : NumberDecimal("3788.95"),
+		"count" : 1
+	},
+	{
+		"_id" : "NZD",
+		"sumBalance" : NumberDecimal("5328.46"),
+		"avgBalance" : NumberDecimal("5328.46"),
+		"count" : 1
+	},
+	{
+		"_id" : "KYD",
+		"sumBalance" : NumberDecimal("3760.89"),
+		"avgBalance" : NumberDecimal("3760.89"),
+		"count" : 1
+	},
+	{
+		"_id" : "PKR",
+		"sumBalance" : NumberDecimal("18938.00"),
+		"avgBalance" : NumberDecimal("4734.50"),
+		"count" : 4
+	},
+	{
+		"_id" : "HRK",
+		"sumBalance" : NumberDecimal("24354.82"),
+		"avgBalance" : NumberDecimal("4870.964"),
+		"count" : 5
+	},
+	{
+		"_id" : "ZAR",
+		"sumBalance" : NumberDecimal("11790.92"),
+		"avgBalance" : NumberDecimal("3930.306666666666666666666666666667"),
+		"count" : 3
+	},
+	{
+		"_id" : "CUP",
+		"sumBalance" : NumberDecimal("15017.34"),
+		"avgBalance" : NumberDecimal("5005.78"),
+		"count" : 3
+	},
+	{
+		"_id" : "PLN",
+		"sumBalance" : NumberDecimal("90770.78"),
+		"avgBalance" : NumberDecimal("5042.821111111111111111111111111111"),
+		"count" : 18
+	},
+	{
+		"_id" : "ZWL",
+		"sumBalance" : NumberDecimal("5792.17"),
+		"avgBalance" : NumberDecimal("5792.17"),
+		"count" : 1
+	},
+	{
+		"_id" : "BRL",
+		"sumBalance" : NumberDecimal("49632.02"),
+		"avgBalance" : NumberDecimal("4512.001818181818181818181818181818"),
+		"count" : 11
+	},
+	{
+		"_id" : "SEK",
+		"sumBalance" : NumberDecimal("70840.19"),
+		"avgBalance" : NumberDecimal("5060.013571428571428571428571428571"),
+		"count" : 14
+	},
+	{
+		"_id" : "MNT",
+		"sumBalance" : NumberDecimal("21715.61"),
+		"avgBalance" : NumberDecimal("5428.9025"),
+		"count" : 4
+	},
+	{
+		"_id" : "XAF",
+		"sumBalance" : NumberDecimal("14094.66"),
+		"avgBalance" : NumberDecimal("4698.22"),
+		"count" : 3
+	},
+	{
+		"_id" : "ZMW",
+		"sumBalance" : NumberDecimal("5569.56"),
+		"avgBalance" : NumberDecimal("5569.56"),
+		"count" : 1
+	},
+	{
+		"_id" : "SRD",
+		"sumBalance" : NumberDecimal("5286.68"),
+		"avgBalance" : NumberDecimal("5286.68"),
+		"count" : 1
+	},
+	{
+		"_id" : "RUB",
+		"sumBalance" : NumberDecimal("119749.15"),
+		"avgBalance" : NumberDecimal("4989.547916666666666666666666666667"),
+		"count" : 24
+	},
+	{
+		"_id" : "JPY",
+		"sumBalance" : NumberDecimal("60944.74"),
+		"avgBalance" : NumberDecimal("5078.728333333333333333333333333333"),
+		"count" : 12
+	},
+	{
+		"_id" : "EGP",
+		"sumBalance" : NumberDecimal("5579.3"),
+		"avgBalance" : NumberDecimal("5579.3"),
+		"count" : 1
+	},
+	{
+		"_id" : "TZS",
+		"sumBalance" : NumberDecimal("7052.37"),
+		"avgBalance" : NumberDecimal("3526.185"),
+		"count" : 2
+	},
+	{
+		"_id" : "CDF",
+		"sumBalance" : NumberDecimal("12228.8"),
+		"avgBalance" : NumberDecimal("6114.4"),
+		"count" : 2
+	},
+	{
+		"_id" : "EUR",
+		"sumBalance" : NumberDecimal("245091.47"),
+		"avgBalance" : NumberDecimal("4901.8294"),
+		"count" : 50
+	},
+	{
+		"_id" : "IDR",
+		"sumBalance" : NumberDecimal("323922.59"),
+		"avgBalance" : NumberDecimal("4907.918030303030303030303030303030"),
+		"count" : 66
+	},
+	{
+		"_id" : "ISK",
+		"sumBalance" : NumberDecimal("4316.41"),
+		"avgBalance" : NumberDecimal("4316.41"),
+		"count" : 1
+	},
+	{
+		"_id" : "NIO",
+		"sumBalance" : NumberDecimal("9971.28"),
+		"avgBalance" : NumberDecimal("4985.64"),
+		"count" : 2
+	},
+	{
+		"_id" : "AFN",
+		"sumBalance" : NumberDecimal("16755.49"),
+		"avgBalance" : NumberDecimal("5585.163333333333333333333333333333"),
+		"count" : 3
+	},
+	{
+		"_id" : "CZK",
+		"sumBalance" : NumberDecimal("37156.42"),
+		"avgBalance" : NumberDecimal("4644.5525"),
+		"count" : 8
+	},
+	{
+		"_id" : "IRR",
+		"sumBalance" : NumberDecimal("26504.24"),
+		"avgBalance" : NumberDecimal("4417.373333333333333333333333333333"),
+		"count" : 6
+	},
+	{
+		"_id" : "BOB",
+		"sumBalance" : NumberDecimal("5263.3"),
+		"avgBalance" : NumberDecimal("5263.3"),
+		"count" : 1
+	},
+	{
+		"_id" : "MGA",
+		"sumBalance" : NumberDecimal("14560.99"),
+		"avgBalance" : NumberDecimal("4853.663333333333333333333333333333"),
+		"count" : 3
+	},
+	{
+		"_id" : "GTQ",
+		"sumBalance" : NumberDecimal("5806.3"),
+		"avgBalance" : NumberDecimal("5806.3"),
+		"count" : 1
+	},
+	{
+		"_id" : "UAH",
+		"sumBalance" : NumberDecimal("40471.84"),
+		"avgBalance" : NumberDecimal("5058.98"),
+		"count" : 8
+	},
+	{
+		"_id" : "COP",
+		"sumBalance" : NumberDecimal("19746.73"),
+		"avgBalance" : NumberDecimal("4936.6825"),
+		"count" : 4
+	},
+	{
+		"_id" : "CNY",
+		"sumBalance" : NumberDecimal("470700.38"),
+		"avgBalance" : NumberDecimal("4954.740842105263157894736842105263"),
+		"count" : 95
+	},
+	{
+		"_id" : "NGN",
+		"sumBalance" : NumberDecimal("24946.23"),
+		"avgBalance" : NumberDecimal("4157.705"),
+		"count" : 6
+	},
+	{
+		"_id" : "MWK",
+		"sumBalance" : NumberDecimal("3574.42"),
+		"avgBalance" : NumberDecimal("3574.42"),
+		"count" : 1
+	},
+	{
+		"_id" : "NPR",
+		"sumBalance" : NumberDecimal("5792.26"),
+		"avgBalance" : NumberDecimal("5792.26"),
+		"count" : 1
+	},
+	{
+		"_id" : "MXN",
+		"sumBalance" : NumberDecimal("50229.00"),
+		"avgBalance" : NumberDecimal("5022.90"),
+		"count" : 10
+	},
+	{
+		"_id" : "PYG",
+		"sumBalance" : NumberDecimal("4874.69"),
+		"avgBalance" : NumberDecimal("4874.69"),
+		"count" : 1
+	},
+	{
+		"_id" : "NOK",
+		"sumBalance" : NumberDecimal("4773.66"),
+		"avgBalance" : NumberDecimal("4773.66"),
+		"count" : 1
+	},
+	{
+		"_id" : "CAD",
+		"sumBalance" : NumberDecimal("58375.60"),
+		"avgBalance" : NumberDecimal("5306.872727272727272727272727272727"),
+		"count" : 11
+	},
+	{
+		"_id" : "DOP",
+		"sumBalance" : NumberDecimal("20674.74"),
+		"avgBalance" : NumberDecimal("5168.685"),
+		"count" : 4
+	},
+	{
+		"_id" : "VUV",
+		"sumBalance" : NumberDecimal("6418.27"),
+		"avgBalance" : NumberDecimal("6418.27"),
+		"count" : 1
+	},
+	{
+		"_id" : "HNL",
+		"sumBalance" : NumberDecimal("16514.59"),
+		"avgBalance" : NumberDecimal("5504.863333333333333333333333333333"),
+		"count" : 3
+	},
+	{
+		"_id" : "THB",
+		"sumBalance" : NumberDecimal("23021.96"),
+		"avgBalance" : NumberDecimal("4604.392"),
+		"count" : 5
+	},
+	{
+		"_id" : "VND",
+		"sumBalance" : NumberDecimal("36160.26"),
+		"avgBalance" : NumberDecimal("4520.0325"),
+		"count" : 8
+	},
+	{
+		"_id" : "AMD",
+		"sumBalance" : NumberDecimal("24609.33"),
+		"avgBalance" : NumberDecimal("4921.866"),
+		"count" : 5
+	},
+	{
+		"_id" : "GBP",
+		"sumBalance" : NumberDecimal("6149.19"),
+		"avgBalance" : NumberDecimal("6149.19"),
+		"count" : 1
+	},
+	{
+		"_id" : "USD",
+		"sumBalance" : NumberDecimal("74680.98"),
+		"avgBalance" : NumberDecimal("4978.732"),
+		"count" : 15
+	},
+	{
+		"_id" : "XOF",
+		"sumBalance" : NumberDecimal("17882.05"),
+		"avgBalance" : NumberDecimal("5960.683333333333333333333333333333"),
+		"count" : 3
+	},
+	{
+		"_id" : "PHP",
+		"sumBalance" : NumberDecimal("118606.28"),
+		"avgBalance" : NumberDecimal("4941.928333333333333333333333333333"),
+		"count" : 24
+	},
+	{
+		"_id" : "BGN",
+		"sumBalance" : NumberDecimal("21200.88"),
+		"avgBalance" : NumberDecimal("5300.22"),
+		"count" : 4
+	},
+	{
+		"_id" : "YER",
+		"sumBalance" : NumberDecimal("13712.50"),
+		"avgBalance" : NumberDecimal("4570.833333333333333333333333333333"),
+		"count" : 3
+	},
+	{
+		"_id" : "ARS",
+		"sumBalance" : NumberDecimal("23242.00"),
+		"avgBalance" : NumberDecimal("4648.40"),
+		"count" : 5
+	},
+	{
+		"_id" : "VEF",
+		"sumBalance" : NumberDecimal("8333.28"),
+		"avgBalance" : NumberDecimal("4166.64"),
+		"count" : 2
+	},
+	{
+		"_id" : "MKD",
+		"sumBalance" : NumberDecimal("3835.05"),
+		"avgBalance" : NumberDecimal("3835.05"),
+		"count" : 1
+	},
+	{
+		"_id" : "PEN",
+		"sumBalance" : NumberDecimal("18644.94"),
+		"avgBalance" : NumberDecimal("4661.235"),
+		"count" : 4
+	},
+	{
+		"_id" : "ETB",
+		"sumBalance" : NumberDecimal("5436.11"),
+		"avgBalance" : NumberDecimal("5436.11"),
+		"count" : 1
+	}
+]

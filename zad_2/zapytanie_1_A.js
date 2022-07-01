@@ -1,0 +1,31 @@
+printjson(db.people.aggregate([
+{$group:{_id:"$sex",count : { $sum : 1 },
+    summaryHeight:{
+        $sum:{
+            $convert:{
+                input:"$height",
+                to:"decimal",
+                onNull:0.0}
+            }
+        },
+    summaryWeight:{
+        $sum:{
+            $convert:{
+                input:"$weight",
+                to:"decimal",
+                onNull:0.0}
+            }
+        }
+    }
+},
+{$group:{
+    _id:"$_id",
+    suma:{$sum:"$count"},
+    avgWeight:{
+        $avg:{$divide:["$summaryWeight","$count"]}
+    },
+    avgHeight:{
+        $avg:{$divide:["$summaryHeight","$count"]}
+    }
+}}
+]).toArray())

@@ -1,0 +1,50 @@
+Zapytanie 1 
+curl -i --location --request PUT 'http://localhost:8098/buckets/s25746/keys/some_object?returnbody=true' \
+ --header 'Content-Type: application/json' \
+ -d '{"data": {"emp":123},"type": "FULL","isRequired": true,"date":"2022-06-01"}' 
+ 
+curl -i --location --request PUT 'http://localhost:8098/buckets/s25746/keys/token_data?returnbody=true' \
+ --header 'Content-Type: application/json' \
+ -d '{"token":"JK1H2K3H123","perms":["account:read","account:write"], "userId":"DASD67ASDA2341","expMs":45412311}' 
+
+curl -i --location --request PUT 'http://localhost:8098/buckets/s25746/keys/fruit?returnbody=true' \
+ --header 'Content-Type: application/json' \
+ -d '{"fruit": "Apple",    "size": "Large",    "color": "Red",    "price": 10}'
+
+curl -i --location --request PUT 'http://localhost:8098/buckets/s25746/keys/car?returnbody=true' \
+ --header 'Content-Type: application/json' \
+ -d '{"brand": "Mercedes","model": "GT 4-door","color": "Black Matte","price": 10}' 
+
+Zapytanie 2
+curl -i http://localhost:8098/buckets/s25746/keys/fruit
+
+Zapytanie 3
+curl -i -XPUT 'http://localhost:8098/buckets/s25746/keys/fruit?returnbody=true' \
+ --header 'Content-Type: application/json' \
+ -d '{"fruit": "Apple",    "size": "Large",    "color": "Red",    "price": 10, "consume-date":"2022-07-29"}'
+
+Zapytanie 4
+curl -i -XPUT 'http://localhost:8098/buckets/s25746/keys/fruit?returnbody=true' \
+ --header 'Content-Type: application/json' \
+ -d '{"fruit": "Apple","size": "Large","price": 10,"consume-date":"2022-07-29"}'
+
+Zapytanie 5
+curl -i -XPUT 'http://localhost:8098/buckets/s25746/keys/fruit?returnbody=true' \
+ --header 'Content-Type: application/json' \
+ -d '{"fruit": "Apple","size": "Large","price": 31241,"consume-date":"2022-07-29"}'
+
+Zapytanie 6
+curl -i -XDELETE 'http://localhost:8098/buckets/s25746/keys/car?returnbody=true'
+
+Zapytanie 7
+curl -i 'http://localhost:8098/buckets/s25746/keys/car?returnbody=true'
+
+Zapytanie 8
+curl -i -XPOST 'http://localhost:8098/buckets/s25746/keys' -d '{"token":"UIHASD7899ASDJKAUISDASD"}'
+
+Zapytanie 9
+curl -i 'http://localhost:8098/buckets/s25746/keys/NEsMKpbJnM3BcFI7BSv458u4KDr'
+
+Zapytanie 10
+curl -i -XDELETE 'http://localhost:8098/buckets/s25746/keys/NEsMKpbJnM3BcFI7BSv458u4KDr'
+

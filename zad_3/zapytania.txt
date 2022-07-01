@@ -1,0 +1,25 @@
+Zapytanie 1
+MATCH (movies :Movie ) RETURN movies
+
+Zapytanie 2
+MATCH (actor:Person {name:"Hugo Weaving"} )-[:ACTED_IN]->(movies:Movie) RETURN movies
+
+Zapytanie 3
+MATCH (actor:Person {name:"Hugo Weaving"} )-[:ACTED_IN]-(movies:Movie) - [:DIRECTED]- (director:Person) RETURN director
+
+Zapytanie 4
+MATCH p=(actor:Person {name:"Hugo Weaving"})-[:ACTED_IN]-()-[:ACTED_IN]-(otherActor:Person) RETURN otherActor
+
+Zapytanie 5
+MATCH p=(mvv:Movie)-[:ACTED_IN]-()-[:ACTED_IN]-(mv:Movie {title:"The Matrix"}) RETURN mvv
+
+Zapytanie 6
+match (a:Person)-[:ACTED_IN]-(m:Movie) return a,count(m)
+
+Zapytanie 7
+match (a:Person) -[:WROTE]-(m:Movie)-[:DIRECTED]-(:Person {name:a.name}) return a
+
+Zapytanie 8
+match (a:Person {name:"Hugo Weaving"})-[:ACTED_IN]-(m:Movie)-[:ACTED_IN]-(a2:Person {name:"Keanu Reeves"}) return m
+
+Zapytanie 9

@@ -1,0 +1,15 @@
+printjson(
+db.people.aggregate([
+    {$unwind:"$credit"},
+    {$group:{_id:"$credit.currency",
+        summaryBalance:{
+            $sum:{
+                $convert:{
+                    input:"$credit.balance",
+                    to:"decimal",
+                    onNull:0.0}
+                }
+            }
+    }},
+    {$sort:{"_id":1}}
+]).toArray())

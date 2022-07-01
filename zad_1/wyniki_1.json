@@ -1,0 +1,38 @@
+MongoDB shell version v4.0.28
+connecting to: mongodb://127.0.0.1:27017/nbd?gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("2609255c-7596-4d5f-a2d9-d410cdf36ee0") }
+MongoDB server version: 4.0.28
+{
+	"_id" : ObjectId("62b4cff244b549d58373fdf6"),
+	"sex" : "Male",
+	"first_name" : "Harry",
+	"last_name" : "Lawson",
+	"job" : "Product Engineer",
+	"email" : "hlawson2@flavors.me",
+	"location" : {
+		"city" : "Tutong",
+		"address" : {
+			"streetname" : "Summerview",
+			"streetnumber" : "93836"
+		}
+	},
+	"description" : "lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem",
+	"height" : "173.4",
+	"weight" : "75.25",
+	"birth_date" : "1965-02-18T07:22:24Z",
+	"nationality" : "Brunei",
+	"credit" : [
+		{
+			"type" : "mastercard",
+			"number" : "56022541652043117",
+			"currency" : "COP",
+			"balance" : "3843.63"
+		},
+		{
+			"type" : "jcb",
+			"number" : "5602220902466171",
+			"currency" : "SEK",
+			"balance" : "3870.48"
+		}
+	]
+}

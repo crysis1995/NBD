@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8J9gnVm5ZJ1sDEUrkzWNlCAk2usOXBQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s25746>; rel="up"
+Last-Modified: Thu, 30 Jun 2022 17:03:16 GMT
+ETag: "6e9maZ3a7aZZueHspIjuDi"
+Date: Thu, 30 Jun 2022 17:03:16 GMT
+Content-Type: application/json
+Content-Length: 77
+
+{"fruit": "Apple","size": "Large","price": 31241,"consume-date":"2022-07-29"}

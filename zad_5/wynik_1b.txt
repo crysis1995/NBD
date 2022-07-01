@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8J9gnVm5ZU6rEwKAumMGUyJjHyuAeb3SHLwsA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s25746>; rel="up"
+Last-Modified: Thu, 30 Jun 2022 17:54:15 GMT
+ETag: "4kpOZnu3PG3r37fZn4vqsr"
+Date: Thu, 30 Jun 2022 17:54:15 GMT
+Content-Type: application/json
+Content-Length: 108
+
+{"token":"JK1H2K3H123","perms":["account:read","account:write"], "userId":"DASD67ASDA2341","expMs":45412311}

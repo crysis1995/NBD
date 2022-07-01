@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8J9gnVm5Z4badgUFdKIMpkTGPlSEu3ugOXxYA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s25746>; rel="up"
+Last-Modified: Thu, 30 Jun 2022 17:54:38 GMT
+ETag: "6Gemd1xDqfSzfaBMt8l3md"
+Date: Thu, 30 Jun 2022 17:54:37 GMT
+Content-Type: application/json
+Content-Length: 77
+
+{"brand": "Mercedes","model": "GT 4-door","color": "Black Matte","price": 10}

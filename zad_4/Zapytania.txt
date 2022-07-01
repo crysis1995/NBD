@@ -1,0 +1,19 @@
+Zapytanie 1
+match path=shortestPath((t:town {name:"Darjeeling"})-[*..6]-(p:peak {name:"Sandakphu"})) return path
+
+Zapytanie 3
+match (t:town {name:"Darjeeling"}),
+    (p:peak {name:"Sandakphu"}),
+    path =(t)-[*1..10]->(p)
+    with path, reduce(dis=0, n in relationships(path) | dis + n.distance  ) as dist
+    return path, dist
+    order by dist
+
+
+Zapytanie 4
+match path =(t:town {name:"Darjeeling"})-[:twowheeler* {summer:true}]->(p) return p
+
+Zapytanie 5
+match p=(o:Airport)<-[:ORIGIN]-() return o,count(p)
+
+Zapytanie 6
